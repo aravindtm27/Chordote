@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chordnote</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li class="brand"><img src ="Pic.png" alt = "Chordote"> Chordote</li>
+            <li>Home</li>  
+            <li>About</li>  
+        </ul>
+    </nav>
+
+    <div class="container">
+        <h2>AR beethoven godse of gandhi tagore </h2>   
+        <div class="pianosheet"></div>
+        <div class="chords"></div>
+    </div>
+
+    
+    <div class="piano">
+        <div data-note="C" class="key white"></div>
+        <div data-note="Db"class="key black"></div>
+        <div data-note="D"class="key white"></div>
+        <div data-note="Eb"class="key black"></div>
+        <div data-note="E"class="key white"></div>
+        <div data-note="F"class="key white"></div>
+        <div data-note="Gb"class="key black"></div>
+        <div data-note="G"class="key white"></div>
+        <div data-note="Ab"class="key black"></div>
+        <div data-note="A"class="key white"></div>
+        <div data-note="Bb"class="key black"></div>
+        <div data-note="B"class="key white"></div>
+    </div>
+
+    <audio id="C" src="notes/notes_C.mp3"></audio>
+    <audio id="Db" src="notes/notes_Db.mp3"></audio>
+    <audio id="D" src="notes/notes_D.mp3"></audio>
+    <audio id="Eb" src="notes/notes_Eb.mp3"></audio>
+    <audio id="E" src="notes/notes_E.mp3"></audio>
+    <audio id="F" src="notes/notes_F.mp3"></audio>
+    <audio id="Gb" src="notes/notes_Gb.mp3"></audio>
+    <audio id="G" src="notes/notes_G.mp3"></audio>
+    <audio id="Ab" src="notes/notes_Ab.mp3"></audio>
+    <audio id="A" src="notes/notes_A.mp3"></audio>
+    <audio id="Bb" src="notes/notes_Bb.mp3"></audio>
+    <audio id="B" src="notes/notes_B.mp3"></audio>
+
+    <div class="bottom">
+        <input type="range" name="range" id="myprogbar" min="0" max="80">
+        <div class="icons">
+            <i class="fa-solid fa-play "></i>
+            <!-- fontawesome icons -->
+        </div>
+    </div>
+    <script src="https://kit.fontawesome.com/0ba939c4e9.js" crossorigin="anonymous"></script>
+    <script src="script.js" defer></script>
+</body>
+</html>
